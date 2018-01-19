@@ -1,0 +1,138 @@
+
+
+/**search*********/
+#search {
+    height: 600px;
+    width: 100%; /*关键设置*/
+    min-width: 1263px; /*因为宽度设置为100% 拉动窗口的时候会导致自适应bug 所以设置*/
+    background: url("../img/search.jpg") center no-repeat;
+    position: relative;
+}
+
+#search .center {
+    width: 600px;
+    height: 60px;
+    background-color: #000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -30px 0 0 -300px;
+    opacity: 0.6; /*透明度*/
+    border-radius: 10px;
+}
+
+#search .search {
+    width: 450px;
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 0 10px;
+    background-color: #ffffff;
+    font-size: 24px;
+    color: #333;
+    margin: -27px 0 0 -298px;
+    outline: none;
+    border: 1px solid #666;
+    border-radius: 10px;
+}
+
+#search .button {
+    width: 120px;
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 0 10px;
+    background-color: #ffffff;
+    font-size: 24px;
+    color: #333;
+    margin: -25px 0 0 177px;
+    outline: none;
+    border: 1px solid #666;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/*****tour********/
+
+#tour {
+    width: 1263px;
+    height: 1200px;
+    margin: 30px auto;
+    /*background-color: red;*/
+    text-align: center;
+}
+
+#tour .center h2 {
+    font-size: 45px;
+    letter-spacing: 2px;
+    color: #666666;
+    margin: 10px 0;
+}
+
+#tour .center p {
+    color: #666666;
+    margin: 10px 0;
+}
+
+#tour figure { /*去掉figure的默认属性*/
+    border: 1px solid #ddd;
+    display: inline-block; /*因为figure是block 导致占用一行 我们需要占用部分*/
+    padding: 5px;
+    border-radius: 4px;
+    margin: 15px 12px;
+    width: 380px;
+    position: relative;
+}
+
+#tour figure img {
+    vertical-align: middle; /*解决图片边框下边有空隙*/
+}
+
+#tour figcaption {
+    text-align: left;
+    color: #777;
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    padding: 7px 5px; /*有点挤  挪一挪*/
+}
+
+#tour .title {
+    color: #333333;
+    font-weight: normal;
+}
+
+#tour .sat {
+    float: right;
+    font-size: 14px;
+    font-style: normal;
+    color: #777;
+}
+
+#tour .price {
+    font-size: 14px;
+    float: left;
+    color: #f60;
+}
+
+#tour .price strong {
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+#tour .type {
+    clear: both;
+    color: white;
+    width: 90px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 14px;
+    text-align: center;
+    background-color: #59b200;
+    position: absolute;
+    top: 3px;
+    left: 3px;
+}
+
